@@ -1,0 +1,35 @@
+{
+  "name": "product-store-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for product store with similar products from backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .jsx,.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.1.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.0",
+    "terser": "^5.51.2",
+    "vite": "^5.0.0",
+    "vitest": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
